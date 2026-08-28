@@ -1,38 +1,45 @@
-# 面向计量/测量、软件工程与系统工程的 Agent 工具开发与验证
-# Agent Tool Development and Validation for Measurement, Software Engineering, and Systems Engineering
+# ai-tools-lab
 
-## 项目简介 / Project Overview
+> 面向计量/测量、软件工程与系统工程的 Agent 工具开发与验证平台
+>
+> Agent Tool Development and Validation Platform for Measurement, Software Engineering, and Systems Engineering
 
-本项目聚焦于面向计量/测量、软件工程与系统工程场景的 Agent 工具开发、验证与评估，探索如何构建可控、可测、可验证的 Agent 工具链，用于任务执行、结果检测、流程评估与闭环优化。
+## 概述 / Overview
 
-This project focuses on the development, validation, and evaluation of Agent tools for measurement, software engineering, and systems engineering scenarios. It explores how to build controllable, measurable, and verifiable Agent toolchains for task execution, result detection, workflow evaluation, and closed-loop optimization.
+`ai-tools-lab` 是一个面向 Agent 工具开发、验证、测量与检测的实验性开源项目，重点研究在软件工程与系统工程场景下，如何构建可控、可测、可验证的 Agent 工具链，并通过标准化评估与闭环反馈提升工具可靠性与任务完成质量。
 
-## 核心目标 / Goals
+`ai-tools-lab` is an experimental open-source project for Agent tool development, validation, measurement, and detection. It focuses on building controllable, measurable, and verifiable Agent toolchains for software engineering and systems engineering scenarios, and improving tool reliability and task completion quality through standardized evaluation and closed-loop feedback.
+
+## 研究目标 / Research Goals
 
 - Agent 工具开发与集成 / Agent tool development and integration
-- 工具验证与行为评估 / Tool validation and behavior evaluation
-- 计量/测量与结果检测 / Measurement and result detection
-- 软件工程与系统工程任务支持 / Support for software and systems engineering tasks
-- 闭环控制与持续优化 / Closed-loop control and continuous optimization
+- 工具行为验证与失败检测 / Tool behavior validation and failure detection
+- 计量/测量指标设计与评估 / Metric design and evaluation
+- 软件工程任务自动化与辅助 / Software engineering task automation and assistance
+- 系统工程流程建模与验证 / Systems engineering workflow modeling and validation
 
-## 主要能力 / Key Capabilities
+## 核心能力 / Core Capabilities
 
 - 结构化提示与任务控制 / Structured prompts and task control
-- 多步骤任务拆解与执行 / Multi-step task decomposition and execution
-- 输出校验与异常检测 / Output validation and anomaly detection
+- 多步骤规划、执行与反馈 / Multi-step planning, execution, and feedback
+- 输出一致性校验与异常识别 / Output consistency checks and anomaly detection
 - 任务完成度评估 / Task completion assessment
 - 可复现实验与结果记录 / Reproducible experiments and result tracking
 
-## 使用场景 / Use Cases
+## 适用场景 / Use Cases
 
 - Agent 工具链验证 / Agent toolchain validation
-- 软件开发辅助 / Software development assistance
-- 系统工程流程评估 / Systems engineering workflow evaluation
+- 软件开发与代码辅助 / Software development and code assistance
+- 系统工程工作流评估 / Systems engineering workflow evaluation
 - 计量指标计算与检测 / Metric computation and detection
 - 控制策略与反馈机制研究 / Control strategy and feedback mechanism research
 
+## 项目定位 / Positioning
+
+本项目更偏向于技术研究与工程验证，关注 Agent 工具的可用性、可控性、可观测性与可验证性，而不仅仅是单次任务输出。
+
+This project is positioned as a technical research and engineering validation effort, focusing on the usability, controllability, observability, and verifiability of Agent tools rather than one-off task outputs.
+
 ## 许可证 / License
 
-本项目采用 MIT License。
-
-This project is licensed under the MIT License.
+MIT License.
