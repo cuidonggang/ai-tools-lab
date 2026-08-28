@@ -1,0 +1,26 @@
+# 测量数据表表头 -> MeasurementRow 字段名 的别名映射。
+columns:
+  point:
+    - 测量点
+    - 校准点
+    - 检定点
+  standard_value:
+    - 标准值
+  indicated_value:
+    - 示值
+    - 实测值
+    - 读数
+  correction:
+    - 修正值
+  error:
+    - 误差
+  repeatability:
+    - 重复性
+  mpe:
+    - 最大允许误差
+    - MPE
+  uncertainty:
+    - 不确定度
+  verdict:
+    - 判定结果
+    - 判定

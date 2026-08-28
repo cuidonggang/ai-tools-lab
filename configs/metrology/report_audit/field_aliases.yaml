@@ -1,0 +1,67 @@
+# 报告原文标签 -> Report 字段路径 的别名映射。
+# 抽取时会记录同一 canonical path 命中的每一次出现，供一致性审核使用，
+# 因此这里的别名清单越完整，覆盖到的报告模板就越多。
+fields:
+  document_info.report_number:
+    - 报告编号
+  document_info.report_name:
+    - 报告名称
+  document_info.report_type:
+    - 报告类型
+  document_info.issue_date:
+    - 出具日期
+    - 签发日期
+  document_info.measurement_date:
+    - 检测日期
+    - 校准日期
+    - 检定日期
+  customer:
+    - 委托单位
+    - 客户
+  instrument.name:
+    - 仪器名称
+    - 被测设备名称
+    - 设备名称
+  instrument.manufacturer:
+    - 制造商
+  instrument.model:
+    - 型号
+    - 仪器型号
+  instrument.serial_number:
+    - 出厂编号
+    - 仪器编号
+  instrument.asset_number:
+    - 资产编号
+  instrument.measurement_range:
+    - 测量范围
+  instrument.resolution:
+    - 分辨力
+  instrument.accuracy_class:
+    - 准确度等级
+  technical_basis:
+    - 技术依据
+    - 检定依据
+    - 校准依据
+    - 检测依据
+  conclusion:
+    - 结论
+    - 审核结论
+    - 检定结论
+    - 校准结论
+  standard.name:
+    - 标准器名称
+  standard.model:
+    - 标准器型号
+  standard.serial_number:
+    - 标准器编号
+  standard.measurement_range:
+    - 标准器测量范围
+  standard.accuracy:
+    - 标准器准确度
+  standard.certificate_number:
+    - 标准器证书编号
+  standard.expiry_date:
+    - 标准器有效期
+    - 有效期至
+  standard.traceability_org:
+    - 溯源机构

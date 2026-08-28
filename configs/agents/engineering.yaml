@@ -1,0 +1,5 @@
+# 工程管理 (engineering) 领域启用的 Agent 列表
+domain: engineering
+enabled_agents:
+  - engineering.project_schedule
+  - engineering.document_review

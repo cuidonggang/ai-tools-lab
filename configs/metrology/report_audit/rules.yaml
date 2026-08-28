@@ -1,0 +1,29 @@
+required_fields:
+  - path: document_info.report_number
+    severity: error
+    message: 报告编号缺失
+  - path: instrument.name
+    severity: error
+    message: 被测设备名称缺失
+  - path: document_info.measurement_date
+    severity: error
+    message: 未发现检测/校准/检定日期
+  - path: technical_basis
+    severity: warning
+    message: 报告未发现明确的检定规程或校准规范
+  - path: measurement_data
+    severity: error
+    message: 未发现测量数据
+  - path: conclusion
+    severity: error
+    message: 未发现审核结论
+
+date_checks:
+  - id: measurement_date_before_issue_date
+    enabled: true
+    severity: error
+    message: 检测日期晚于报告签发日期，可能存在录入错误
+  - id: standard_not_expired
+    enabled: true
+    severity: critical
+    message: 标准器在检测日期时已经过期，可能影响测量溯源有效性

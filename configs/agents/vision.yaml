@@ -1,0 +1,5 @@
+# 视觉检测 (vision) 领域启用的 Agent 列表
+domain: vision
+enabled_agents:
+  - vision.defect_detection
+  - vision.dimension_measurement

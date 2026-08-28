@@ -1,0 +1,6 @@
+# 计量检测 (metrology) 领域启用的 Agent 列表
+domain: metrology
+enabled_agents:
+  - metrology.measurement_analysis
+  - metrology.calibration_report
+  - metrology.report_audit

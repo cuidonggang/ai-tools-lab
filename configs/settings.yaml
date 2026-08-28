@@ -1,0 +1,8 @@
+# 全局配置：LLM 提供方、默认参数、日志级别
+llm:
+  provider: openai        # openai | azure_openai | local
+  model: gpt-4o
+  temperature: 0.2
+
+logging:
+  level: INFO
